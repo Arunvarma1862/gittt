@@ -11,6 +11,7 @@ public class BrokenLinks {
 		WebDriver driver= new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.close();
+		driver.quit();
 		
 	}    
 }
